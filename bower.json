@@ -1,0 +1,22 @@
+{
+  "name": "slider",
+  "authors": [
+    "kelvinlogic <kelvin6600@gmail.com>"
+  ],
+  "description": "Simple backbone slider implementation with bootstrap",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.22"
+  }
+}
