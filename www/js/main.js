@@ -30,11 +30,14 @@ define(function(require){
     var $  = require('jquery');
 
     var sliderCollection = require('app/collections/slider.collection');
-    var  SliderView = require('app/views/slider.view');
+    var  SliderView      = require('app/views/slider.view');
+    var headerView = require('app/views/HeaderView');
 
     $(document).ready(function(){
-
-        return new SliderView({
+        new headerView({
+            el : 'body'
+        });
+        new SliderView({
             el : 'div.image-slider',
             collection : new sliderCollection()
         });
